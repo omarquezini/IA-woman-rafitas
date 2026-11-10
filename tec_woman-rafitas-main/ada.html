@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Ada Augusta King - Ada Lovelace </title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Lovelace | TechPioneers</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <body>
-        <header class="cabecalho">
-            <h1 id="titulo"> Ada Augusta King </h1>
-            <li > <a class="voltar" href="index.html">VOLTAR </a> </li>
-        </header>
-      
-        <img src="Ada_Lovelace_portrait.jpg" alt="Ada Lovelace" class="imgcentro">
-        <p class="texto"> Ada Augusta King, Condessa de Lovelace (Byron, 1815 - 1852), foi uma matemática e escritora inglesa. Ela foi a primeira a reconhecer que máquinas poderiam ter aplicações além de puro calculos e criou primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage.</p>
+    <header class="top-bar">
+        <div class="top-bar-container">
+            <a href="index.html" class="top-brand">&lt;TechPioneers/&gt;</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="ada.html" class="active">Ada Lovelace</a></li>
+                    <li><a href="grace.html">Grace Hopper</a></li>
+                    <li><a href="margareth.html">Margaret Hamilton</a></li>
+                    <li><a href="dorothy.html">Dorothy Vaughan</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <p class="texto"> Durante o período em que esteve envolvida com o projeto de Babbage, ela desenvolveu os algoritmos que permitiriam a máquina computar os valores de funções matemáticas, além de publicar uma coleção de notas sobre a máquina analítica.</p> 
+    <main class="page-container">
 
-        <p class="texto"> Por esse trabalho é considerada a primeira programadora de computadores de toda a história. Vale lembrar que ela escreveu o programa em um papel, com as instruções de como programar a máquina analítica, que nunca chegou a ser construída em seu tempo de vida. A Ada é até mesmo uma referência da cultura pop. </p>
+        <!-- Hero Card do Perfil -->
+        <div class="bio-hero">
+            <div class="avatar-wrapper">
+                <img src="Ada_Lovelace_portrait.jpg" alt="Ada Lovelace" class="profile-avatar-img">
+            </div>
+            <div class="bio-meta">
+                <h1>Ada Augusta King</h1>
+                <p class="bio-subtitle">Condessa de Lovelace (1815 &ndash; 1852)</p>
+                <div class="badges">
+                    <span class="badge-neon">1º Algoritmo da História</span>
+                    <span class="badge-neon">Máquina Analítica</span>
+                    <span class="badge-neon">Pioneira da Computação</span>
+                </div>
+            </div>
+        </div>
 
-         <ul class="voltar">
-            <li class="voltar"> <a href="grace.html" > Grace </a> </li>
-            <li class="voltar"> <a href="margareth.html"> Margareth </a> </li>
-            <li class="voltar"> <a href="dorothy.html"> Dorothy </a></li>
-        </ul>
+        <!-- Conteúdo Biográfico detalhado -->
+        <article class="bio-article">
+            <p class="bio-paragraph">Ada Augusta King, Condessa de Lovelace (Byron, 1815 – 1852), foi uma matemática e escritora inglesa. Foi a primeira a reconhecer que máquinas computacionais poderiam ter aplicações muito além de puros cálculos numéricos[cite: 1].</p>
+
+            <div class="highlight-box">
+                <h3>&#x26A1; Marco Histórico Fundamental</h3>
+                <p>Criou o primeiro algoritmo para ser processado por uma máquina na história da humanidade, projetado especificamente para a Máquina Analítica de Charles Babbage[cite: 1].</p>
+            </div>
+
+            <p class="bio-paragraph">Durante o período em que esteve envolvida com o projeto de Babbage, desenvolveu os algoritmos que permitiriam à máquina computar os valores de funções matemáticas complexas, além de publicar uma influente coleção de notas explicativas sobre a máquina[cite: 1].</p>
+
+            <p class="bio-paragraph">Por esse trabalho pioneiro é reconhecida mundialmente como a primeira programadora de computadores de toda a história[cite: 1]. Vale ressaltar que escreveu todo o programa no papel, com as instruções de execução para um dispositivo que nunca chegou a ser construído durante a sua vida[cite: 1].</p>
+        </article>
+
+        <!-- Navegação Cruzada -->
+        <section class="nav-other-pioneers">
+            <h3 class="nav-other-title">Explorar Outras Biografias</h3>
+            <div class="pioneers-mini-grid">
+                <a href="grace.html" class="mini-card">Grace Hopper &rarr;</a>
+                <a href="margareth.html" class="mini-card">Margaret Hamilton &rarr;</a>
+                <a href="dorothy.html" class="mini-card">Dorothy Vaughan &rarr;</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p><strong>Mulheres na Tecnologia</strong> &copy; Portal de Homenagem às Pioneiras da Computação.</p>
+    </footer>
 
 </body>
 </html>
